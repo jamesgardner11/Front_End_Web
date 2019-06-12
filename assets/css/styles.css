@@ -1,0 +1,20 @@
+body {
+    background-color:darkgray;
+    color:black;
+}
+
+header {
+    background-color:azure;
+}
+
+nav {
+    background-color:azure;
+}
+
+main {
+    background-color:antiquewhite;
+}
+
+footer { 
+    background-color:azure;
+}
