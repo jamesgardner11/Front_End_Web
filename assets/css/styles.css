@@ -1,7 +1,56 @@
 body {
     background-color:darkgray;
     color:black;
+    
+   /* make sure you set family and size on body */
+    font-family: arial, helvetica, sans-serif;
+    font-size: 16px;
 }
+
+/* typography */
+
+h1,
+h2, 
+h3, 
+h4, 
+h5, 
+h6 {
+  font-family: serif;
+  margin-bottom: 5px;
+}
+
+h1 {
+    background: azure;
+    float: right;
+    margin-right: 320px; 
+    padding-top: 30px;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+h2 {
+   font-size: 25px;
+   text-decoration: underline;
+   font-style: italic;
+   font-weight: bold;
+}
+
+h3 {
+    font-size: 25px;
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: bold;
+}
+
+main p {
+    padding: 20px; 
+    font-size: 18px;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+
+/* main containers */
 
 .wrapper {
        width: 980px;
@@ -16,32 +65,8 @@ header {
     padding: 8px 12px;   
 }
 
-h1 {
-    background: azure;
-    float: right;
-    margin-right: 320px; 
-    padding-top: 30px;
-    font-size: 40px;
-    font-style: italic;
-}
-
-h2 {
-   font-size: 25px;
-   text-decoration: underline;
-   font-style: italic;
-}
-
-h3 {
-    font-size: 25px;
-    text-decoration: underline;
-    font-style: italic;
-}
-
-main p {
-    padding: 20px;   
-}
-
 /* ancor styles */
+
 a {
     color: black;
     background-color: antiquewhite;
@@ -64,7 +89,9 @@ nav {
 }
 
 nav ul {
-    
+    margin: 0 auto;
+        text-align: center;
+
 }
 
 nav ul li {
@@ -108,6 +135,7 @@ footer {
     padding: 10px;
     background-color: darkgray;
     margin: 20px 0;
+    margin-top: 80px;
 }
 
 .rightimg {
@@ -129,3 +157,4 @@ footer {
     background-color: darkgray;
     margin: 20px 0;
 }
+
