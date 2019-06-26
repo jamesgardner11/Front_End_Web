@@ -109,8 +109,11 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: aquamarine;
+    background-color: black;
     text-decoration: none;
+    color: antiquewhite;
+        opacity: 0.5;
+
 }
 
 main {
@@ -129,32 +132,69 @@ footer {
 
 .leftimg {
     width: 45%;
-    height: 80%;
+    height: 500px;
     float: left;
     border: 1px solid darkgray;
     padding: 10px;
     background-color: darkgray;
     margin: 20px 0;
     margin-top: 80px;
+    background-image: url(../images/churchill-house-21.jpg);
+    background-size: cover;
 }
 
 .rightimg {
     width: 45%;
-    height: 30%;
+    height: 300px;
     float: right;
     border: 1px solid darkgray;
     padding: 10px;
     background-color: darkgray;
     margin: 20px 0;
+        background-image: url(../images/churchill-house-14.jpg);
+        background-size: cover;
+
+
 }
 
 .rightbottomimg {
     width: 45%;
-    height: 30%;
+    height: 300px;
     float: right;
     border: 1px solid darkgray;
     padding: 10px;
     background-color: darkgray;
     margin: 20px 0;
+        background-image: url(../images/churchill-house-13.jpg);
+
+}
+.leftimg.box p {
+    margin-top: 50%;
+}
+.rightimg.box p,
+.rightbottomimg.box  p{
+        margin-top: 30%;
+
 }
 
+.box p {
+    display: none;
+}
+.box:hover {
+    opacity: 0.5;
+
+}
+.box:hover p {
+    display: block;
+}
+.box a {
+        padding: 10px;
+    background: #000;
+    color: #fff;
+    text-decoration: none;
+
+}
+.box a:hover {
+    background: #fff;
+    color: #000;
+}
