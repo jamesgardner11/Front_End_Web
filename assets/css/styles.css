@@ -27,6 +27,7 @@ h1 {
     font-size: 40px;
     font-style: italic;
     font-weight: bold;
+    text-decoration: none;
 }
 
 h2 {
@@ -197,4 +198,11 @@ footer {
 .box a:hover {
     background: #fff;
     color: #000;
+}
+
+.gallery img {
+    float: middle;
+    width: 200px;
+    border: 5px solid grey;
+    background-color: darkgrey;
 }
