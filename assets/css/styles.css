@@ -5,6 +5,8 @@ body {
    /* make sure you set family and size on body */
     font-family: arial, helvetica, sans-serif;
     font-size: 16px;
+    color: #000;
+    
 }
 
 /* typography */
@@ -16,54 +18,53 @@ h4,
 h5, 
 h6 {
   font-family: serif;
-  margin-bottom: 5px;
+  margin-bottom: 0.313em;
 }
 
 h1 {
     background: azure;
-    float: right;
-    margin-right: 320px; 
-    padding-top: 30px;
-    font-size: 40px;
+    font-size: 2.500em;
     font-style: italic;
     font-weight: bold;
     text-decoration: none;
+    text-align: center;
+    padding-top: 2%;
 }
 
 h2 {
-   font-size: 25px;
+   font-size: 1.563em;
    text-decoration: underline;
    font-style: italic;
    font-weight: bold;
 }
 
 h3 {
-    font-size: 25px;
+    font-size: 1.563em;
     text-decoration: underline;
     font-style: italic;
     font-weight: bold;
 }
 
 main p {
-    padding: 20px; 
-    font-size: 18px;
-    line-height: 20px;
-    margin-bottom: 10px;
+    padding: 1.250em; 
+    font-size: 1.563em;
+    line-height: 1.250em;
+    margin-bottom: 0.625em;
 }
 
 /* main containers */
 
 .wrapper {
-       width: 980px;
-       margin: 20px auto 0px auto;
+       width: 90%;
+       margin: 1.250em auto 0.000em auto;
 }
 
 header {
     background-color:azure;
-    height: 150px;
-    padding: 30px;
+    height: 9.375em;
+    padding: 1.875em;
     color: black;
-    padding: 8px 12px;   
+    padding: 0.500em 0.750em;   
 }
 
 /* ancor styles */
@@ -86,27 +87,27 @@ a:active {
 
 nav {
     background-color:azure;
-    padding-top: 100px;
+    padding-top: 1.250em;
 }
 
 nav ul {
-    margin: 0 auto;
+    margin: 0.000em auto;
         text-align: center;
 
 }
 
 nav ul li {
     display: inline;
-    margin-right: 10px;
+    margin-right: 0.625em;
 }
 
 nav ul li a {
     color: black;
     text-decoration: none;
     background-color: antiquewhite;
-    padding: 8px 12px;
+    padding: 0.500em 0.750em;
     text-transform: uppercase;
-    letter-spacing: 1px;
+    letter-spacing: 0.063em;
 }
 
 nav ul li a:hover {
@@ -119,39 +120,40 @@ nav ul li a:hover {
 
 main {
     background-color:antiquewhite;
-    padding: 30px;
+    padding: 1.875em;
     text-align: center;
-    font-size: 20px;
+    font-size: 1.250em;
     overflow: auto;
 }
 
 footer { 
     background-color:azure;
-    height: 100px;
-    padding: 30px;
+    height: 6.250em;
+    padding: 1.875em;
+    
 }
 
 .leftimg {
     width: 45%;
-    height: 500px;
+    height: 31.250em;
     float: left;
-    border: 1px solid darkgray;
-    padding: 10px;
+    border: 0.063em solid darkgray;
+    padding: 0.625em;
     background-color: darkgray;
-    margin: 20px 0;
-    margin-top: 80px;
+    margin: 1.250em 0.000em;
+    margin-top: 5.000em;
     background-image: url(../images/churchill-house-21.jpg);
     background-size: cover;
 }
 
 .rightimg {
     width: 45%;
-    height: 300px;
+    height: 18.750em;
     float: right;
-    border: 1px solid darkgray;
-    padding: 10px;
+    border: 0.063em solid darkgray;
+    padding: 0.625em;
     background-color: darkgray;
-    margin: 20px 0;
+    margin: 1.250em 0.000em;
         background-image: url(../images/churchill-house-14.jpg);
         background-size: cover;
 
@@ -160,12 +162,12 @@ footer {
 
 .rightbottomimg {
     width: 45%;
-    height: 300px;
+    height: 18.750em;
     float: right;
-    border: 1px solid darkgray;
-    padding: 10px;
+    border: 0.063em solid darkgray;
+    padding: 0.625em;
     background-color: darkgray;
-    margin: 20px 0;
+    margin: 1.250em 0.000em;
         background-image: url(../images/churchill-house-13.jpg);
 
 }
@@ -189,7 +191,7 @@ footer {
     display: block;
 }
 .box a {
-        padding: 10px;
+        padding: 0.625em;
     background: #000;
     color: #fff;
     text-decoration: none;
@@ -202,7 +204,42 @@ footer {
 
 .gallery img {
     float: middle;
-    width: 200px;
-    border: 5px solid grey;
+    width: 12.500em;
+    border: 0.313em solid grey;
     background-color: darkgrey;
 }
+
+
+/* if screen is larger than 1055px */
+@media screen and (max-device-width: 1055px) {
+    .wrapper {
+        width: 100%;
+    }
+}
+
+/* if screen is between 375x (mobile) and 768px (tablet) */
+@media screen and (min-device-width: 375px) and (max-device-width: 768px) {
+    h2 {
+        color:aliceblue;
+        margin-bottom: 0;
+        padding-bottom: 1em;
+        line-height: 
+    }
+    
+}
+
+@media screen and (max-device-width: 375px) {
+    .leftimg,.rightimg, .rightbottomimg {
+/*        max-width: 90%;*/
+        width: 100%;
+        max-height: inherit;
+    }
+}
+@media screen and (max-device-width: 660px) {
+        .leftimg,.rightimg, .rightbottomimg {
+/*        max-width: 90%;*/
+        width: 100%;
+        max-height: inherit;
+    }
+}
+
