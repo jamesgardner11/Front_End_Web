@@ -22,7 +22,7 @@ h6 {
 }
 
 h1 {
-    background: azure;
+    background: #CEECF5;
     font-size: 2.500em;
     font-style: italic;
     font-weight: bold;
@@ -60,18 +60,23 @@ main p {
 }
 
 header {
-    background-color:azure;
+    background-color:#CEECF5;
     height: 9.375em;
     padding: 1.875em;
     color: black;
     padding: 0.500em 0.750em;   
 }
 
+.h1img {
+    width: 1400px;
+    height: 300px;       
+}
+
 /* ancor styles */
 
 a {
     color: black;
-    background-color: antiquewhite;
+    background-color: #F2F2F2;
     text-decoration: none;
 }
 a:hover {
@@ -86,7 +91,7 @@ a:active {
 
 
 nav {
-    background-color:azure;
+    background-color:#CEECF5;
     padding-top: 1.250em;
 }
 
@@ -104,7 +109,7 @@ nav ul li {
 nav ul li a {
     color: black;
     text-decoration: none;
-    background-color: antiquewhite;
+    background-color: #F2F2F2;
     padding: 0.500em 0.750em;
     text-transform: uppercase;
     letter-spacing: 0.063em;
@@ -119,7 +124,7 @@ nav ul li a:hover {
 }
 
 main {
-    background-color:antiquewhite;
+    background-color:#F2F2F2;
     padding: 1.875em;
     text-align: center;
     font-size: 1.250em;
@@ -127,12 +132,13 @@ main {
 }
 
 footer { 
-    background-color:azure;
+    background-color:#CEECF5;
     height: 6.250em;
     padding: 1.875em;
     
 }
 
+/* homepage interative images */
 .leftimg {
     width: 45%;
     height: 31.250em;
@@ -191,7 +197,7 @@ footer {
     display: block;
 }
 .box a {
-        padding: 0.625em;
+    padding: 0.725em;
     background: #000;
     color: #fff;
     text-decoration: none;
