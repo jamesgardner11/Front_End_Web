@@ -142,6 +142,7 @@ footer {
     margin-top: 5.000em;
     background-image: url(../images/churchill-house-21.jpg);
     background-size: cover;
+    border: 0.5em solid darkgrey;
 }
 
 .rightimg {
@@ -154,6 +155,7 @@ footer {
     margin: 1.250em 0.000em;
         background-image: url(../images/churchill-house-14.jpg);
         background-size: cover;
+    border: 0.5em solid darkgrey;
 }
 
 .rightbottomimg {
@@ -165,6 +167,7 @@ footer {
     background-color: darkgray;
     margin: 1.250em 0.000em;
         background-image: url(../images/churchill-house-13.jpg);
+    border: 0.5em solid darkgrey;
 }
 
 .leftimg.box p {
