@@ -1,5 +1,5 @@
 body {
-    background-color:darkgray;
+    background-color:white;
     color:black;
     
    /* make sure you set family and size on body */
@@ -22,9 +22,8 @@ h6 {
 }
 
 h1 {
-    background: #CEECF5;
+    background: darkgrey;
     font-size: 2.500em;
-    font-style: italic;
     font-weight: bold;
     text-decoration: none;
     text-align: center;
@@ -32,24 +31,22 @@ h1 {
 }
 
 h2 {
-   font-size: 1.563em;
+   font-size: 1.250em;
    text-decoration: underline;
-   font-style: italic;
    font-weight: bold;
+    margin-top: .625em;
 }
 
 h3 {
-    font-size: 1.563em;
+    font-size: 1.250em;
     text-decoration: underline;
-    font-style: italic;
     font-weight: bold;
 }
 
 main p {
-    padding: 1.250em; 
-    font-size: 1.563em;
+    padding: 1.250em 1.250em 0.2em 1.250em; 
+    font-size: 1em;
     line-height: 1.250em;
-    margin-bottom: 0.625em;
 }
 
 /* main containers */
@@ -60,7 +57,7 @@ main p {
 }
 
 header {
-    background-color:#CEECF5;
+    background-color:darkgrey;
     height: 9.375em;
     padding: 1.875em;
     color: black;
@@ -74,21 +71,21 @@ a {
     background-color: #F2F2F2;
     text-decoration: none;
 }
+/* title hover effects */
 a:hover {
-    text-decoration: underline;
-}
-a:visited {
-    color: black;
-}
-a:active {
-    color: red;
-}
+    background-color: black;
+    text-decoration: none;
+    color: antiquewhite;
+        opacity: 0.5;
 
+}
 
 nav {
-    background-color:#CEECF5;
+    background-color:darkgray;
     padding-top: 1.250em;
 }
+
+/* nav hover effects */
 
 nav ul {
     margin: 0.000em auto;
@@ -127,7 +124,7 @@ main {
 }
 
 footer { 
-    background-color:#CEECF5;
+    background-color:darkgrey;
     height: 6.250em;
     padding: 1.875em;
     
@@ -157,8 +154,6 @@ footer {
     margin: 1.250em 0.000em;
         background-image: url(../images/churchill-house-14.jpg);
         background-size: cover;
-
-
 }
 
 .rightbottomimg {
@@ -170,15 +165,15 @@ footer {
     background-color: darkgray;
     margin: 1.250em 0.000em;
         background-image: url(../images/churchill-house-13.jpg);
-
 }
+
 .leftimg.box p {
     margin-top: 50%;
 }
+
 .rightimg.box p,
 .rightbottomimg.box  p{
         margin-top: 30%;
-
 }
 
 .box p {
@@ -203,12 +198,31 @@ footer {
     color: #000;
 }
 
+/* page img */
+
 .gallery img {
     float: middle;
     width: 12.500em;
-    border: 0.313em solid grey;
+    border: 0.313em solid darkgrey;
     background-color: darkgrey;
 }
+
+.historyimg {
+    width: 67.4em;
+    border: 0.5em solid darkgrey;
+    background-color: darkgrey;
+    margin-left: -1.875em;
+}
+
+.aboutimg {
+    width: 67.4em;
+    border: 0.5em solid darkgrey;
+    background-color: darkgrey;
+    margin-left: -1.875em;
+}
+
+
+/* device screen sizes */
 
 
 /* if screen is larger than 1055px */
