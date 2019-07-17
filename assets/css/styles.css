@@ -1,24 +1,24 @@
 body {
-    background-color:white;
-    color:black;
-    
-   /* make sure you set family and size on body */
+    background-color: white;
+    color: black;
+
+    /* make sure you set family and size on body */
     font-family: arial, helvetica, sans-serif;
     font-size: 16px;
     color: #000;
-    
+
 }
 
 /* typography */
 
 h1,
-h2, 
-h3, 
-h4, 
-h5, 
+h2,
+h3,
+h4,
+h5,
 h6 {
-  font-family: serif;
-  margin-bottom: 0.313em;
+    font-family: serif;
+    margin-bottom: 0.313em;
 }
 
 h1 {
@@ -31,9 +31,9 @@ h1 {
 }
 
 h2 {
-   font-size: 1.250em;
-   text-decoration: underline;
-   font-weight: bold;
+    font-size: 1.250em;
+    text-decoration: underline;
+    font-weight: bold;
     margin-top: .625em;
 }
 
@@ -44,7 +44,7 @@ h3 {
 }
 
 main p {
-    padding: 1.250em 1.250em 0.2em 1.250em; 
+    padding: 1.250em 1.250em 0.2em 1.250em;
     font-size: 1em;
     line-height: 1.250em;
 }
@@ -52,16 +52,16 @@ main p {
 /* main containers */
 
 .wrapper {
-       width: 90%;
-       margin: 1.250em auto 0.000em auto;
+    width: 90%;
+    margin: 1.250em auto 0.000em auto;
 }
 
 header {
-    background-color:darkgrey;
+    background-color: darkgrey;
     height: 9.375em;
     padding: 1.875em;
     color: black;
-    padding: 0.500em 0.750em;   
+    padding: 0.500em 0.750em;
 }
 
 /* ancor styles */
@@ -71,17 +71,18 @@ a {
     background-color: #F2F2F2;
     text-decoration: none;
 }
+
 /* title hover effects */
 a:hover {
     background-color: black;
     text-decoration: none;
     color: antiquewhite;
-        opacity: 0.5;
+    opacity: 0.5;
 
 }
 
 nav {
-    background-color:darkgray;
+    background-color: darkgray;
     padding-top: 1.250em;
 }
 
@@ -89,7 +90,7 @@ nav {
 
 nav ul {
     margin: 0.000em auto;
-        text-align: center;
+    text-align: center;
 
 }
 
@@ -111,23 +112,23 @@ nav ul li a:hover {
     background-color: black;
     text-decoration: none;
     color: antiquewhite;
-        opacity: 0.5;
+    opacity: 0.5;
 
 }
 
 main {
-    background-color:#F2F2F2;
+    background-color: #F2F2F2;
     padding: 1.875em;
     text-align: center;
     font-size: 1.250em;
-    overflow: auto;
+    overflow: hidden;
 }
 
-footer { 
-    background-color:darkgrey;
+footer {
+    background-color: darkgrey;
     height: 6.250em;
     padding: 1.875em;
-    
+
 }
 
 /* homepage interative images */
@@ -153,8 +154,8 @@ footer {
     padding: 0.625em;
     background-color: darkgray;
     margin: 1.250em 0.000em;
-        background-image: url(../images/churchill-house-14.jpg);
-        background-size: cover;
+    background-image: url(../images/churchill-house-14.jpg);
+    background-size: cover;
     border: 0.5em solid darkgrey;
 }
 
@@ -166,7 +167,7 @@ footer {
     padding: 0.625em;
     background-color: darkgray;
     margin: 1.250em 0.000em;
-        background-image: url(../images/churchill-house-13.jpg);
+    background-image: url(../images/churchill-house-13.jpg);
     border: 0.5em solid darkgrey;
 }
 
@@ -175,20 +176,23 @@ footer {
 }
 
 .rightimg.box p,
-.rightbottomimg.box  p{
-        margin-top: 30%;
+.rightbottomimg.box p {
+    margin-top: 30%;
 }
 
 .box p {
     display: none;
 }
+
 .box:hover {
     opacity: 0.5;
 
 }
+
 .box:hover p {
     display: block;
 }
+
 .box a {
     padding: 0.725em;
     background: #000;
@@ -196,6 +200,7 @@ footer {
     text-decoration: none;
 
 }
+
 .box a:hover {
     background: #fff;
     color: #000;
@@ -210,13 +215,7 @@ footer {
     background-color: darkgrey;
 }
 
-.historyimg {
-    width: 67.3em;
-    border: 0.5em solid darkgrey;
-    background-color: darkgrey;
-    margin-left: -1.875em;
-}
-
+.historyimg,
 .aboutimg {
     width: 67.3em;
     border: 0.5em solid darkgrey;
@@ -238,31 +237,44 @@ footer {
 /* if screen is between 375x (mobile) and 768px (tablet) */
 @media screen and (min-device-width: 375px) and (max-device-width: 768px) {
     h2 {
-        color:aliceblue;
+        color: aliceblue;
         margin-bottom: 0;
         padding-bottom: 1em;
-        line-height: 
+        line-height:
     }
-    
+
 }
 
 @media screen and (max-device-width: 375px) {
-    .leftimg,.rightimg, .rightbottomimg, .aboutimg, .historyimg {
-/*        max-width: 90%;*/
+
+    .leftimg,
+    .rightimg,
+    .rightbottomimg,
+    .aboutimg,
+    .historyimg {
+        /*        max-width: 90%;*/
         width: 100%;
         max-height: inherit;
-    }
-}
-@media screen and (max-device-width: 660px) {
-        .leftimg,.rightimg, .rightbottomimg, .aboutimg, .historyimg {
-/*        max-width: 90%;*/
-        width: 100%;
-        max-height: inherit;
-    }
-}
-@media screen and (min-device-width: 660px) and (max-device-width: 770px) {
-    .aboutimg, .historyimg {
-        width: 100%;
     }
 }
 
+@media screen and (max-device-width: 660px) {
+
+    .leftimg,
+    .rightimg,
+    .rightbottomimg,
+    .aboutimg,
+    .historyimg {
+        /*        max-width: 90%;*/
+        width: 100%;
+        max-height: inherit;
+    }
+}
+
+@media screen and (min-device-width: 660px) and (max-device-width: 770px) {
+
+    .aboutimg,
+    .historyimg {
+        width: 100%;
+    }
+}
