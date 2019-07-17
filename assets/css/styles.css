@@ -211,14 +211,14 @@ footer {
 }
 
 .historyimg {
-    width: 67.4em;
+    width: 67.3em;
     border: 0.5em solid darkgrey;
     background-color: darkgrey;
     margin-left: -1.875em;
 }
 
 .aboutimg {
-    width: 67.4em;
+    width: 67.3em;
     border: 0.5em solid darkgrey;
     background-color: darkgrey;
     margin-left: -1.875em;
@@ -247,17 +247,22 @@ footer {
 }
 
 @media screen and (max-device-width: 375px) {
-    .leftimg,.rightimg, .rightbottomimg {
+    .leftimg,.rightimg, .rightbottomimg, .aboutimg, .historyimg {
 /*        max-width: 90%;*/
         width: 100%;
         max-height: inherit;
     }
 }
 @media screen and (max-device-width: 660px) {
-        .leftimg,.rightimg, .rightbottomimg {
+        .leftimg,.rightimg, .rightbottomimg, .aboutimg, .historyimg {
 /*        max-width: 90%;*/
         width: 100%;
         max-height: inherit;
+    }
+}
+@media screen and (min-device-width: 660px) and (max-device-width: 770px) {
+    .aboutimg, .historyimg {
+        width: 100%;
     }
 }
 
